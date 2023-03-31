@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Especial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a class="logo" href="index.html"> <img src="img/logo.png"> </a>
+        <nav>
+            <ul class="linksHeader">
+                <li> <a href="#Sobre_Nosotros">Sobre nosotros</a> </li>
+                <li> <a href="#Servicios">Servicios</a> </li>
+                <li> <a href="#Contacto">Contacto</a> </li>
+            </ul>
+        </nav>
+        <a class="modelos" href="#Modelos">MODELOS</a>
+    </header>
+
+    <img class="imagenDeEntrada" src="img/porsche.jpg">
+
+    <section class="SobreNosotros" id="Sobre_Nosotros">
+        <h1 class="TituloSobreNosotros">Sobre Nosotros</h1>
+            <div class="containerSobreNosotros">
+                <div> <img class="NosotrosLogo" src="img/PorscheSobreNotros.jpg"> </div>
+                <div class="textoSobreNosotros">
+                    <p>Dr. Ing. h.c. F. Porsche Aktiengesellschaft, normalmente abreviado como Porsche AG, somos fabricantes de automóviles
+                        alemánes especializados en automóviles deportivos de lujo de alta gama, vehículos utilitarios deportivos (SUV) y sedanes.
+                        Propiedad del Grupo Volkswagen, que a su vez es propiedad mayoritaria de Porsche Automobil Holding SE. Fundamos
+                        en Stuttgart en 1931 por Ferdinand Porsche y su hijo Ferdinand Anton Ernst Porsche.</p>
+                </div>
+            </div> 
+    </section>
+
+    <section class="Servicios" id="Servicios">
+        <h1 class="TituloServicios">Servicios</h1>
+            <div class="containerServicios">
+                <div> <img class="ServiciosLogo" src="img/LogoPorscheServiceFilosofia.jpg"> </div>
+                <div class="textoServicios">
+                    <h2>Nuestras exigencias son altas. Las suyas, definitivamente, tambien.</h2>
+                    <p>Quiere algo especial. Después de todo, por eso conduce un Porsche. Y por eso mismo se <br>
+                        merece un servicio técnico a la altura. Preciso. Profesional. Dinåmico.<br>
+                        Y, sobre todo: adaptado exactamente a sus necesidades. Tipico de Porsche.</p>
+                        <br><br>
+                    <a class="MasInfoService" href="https://www.porsche.com/mexico/accessoriesandservice/porscheservice/philosophy/">> Más información</a>
+                </div>
+            </div>
+    </section>
+
+    <section class="Modelos" id="Modelos">
+        <h1 class="TituloModelos">Modelos</h1>
+            <div class="containerModelos">
+                <div> <a href="https://www.porsche.com/mexico/models/718/" Target="_blank"> <img class="Modelo1" src="img/model718.jpg"> </a>   </div>
+                <div> <a href="https://www.porsche.com/mexico/models/911/" Target="_blank"> <img class="Modelo2" src="img/model911.jpg"> </a>  </div>
+                <div> <a href="https://www.porsche.com/mexico/models/taycan/taycan-models/" Target="_blank"> <img class="Modelo3" src="img/modelTaycan.jpg"> </a>  </div>
+            </div>
+            <div class="containerModelos2">
+                <div> <a href="https://www.porsche.com/mexico/models/panamera/panamera-models/" Target="_blank"> <img class="Modelo4" src="img/modelPanamera.jpg"> </a>  </div>
+                <div> <a href="https://www.porsche.com/mexico/models/macan/macan-models/" Target="_blank"> <img class="Modelo5" src="img/modelMacan.jpg"> </a>  </div>
+                <div> <a href="https://www.porsche.com/mexico/models/cayenne/cayenne-models/" Target="_blank"> <img class="Modelo6" src="img/modelCayenne.jpg"> </a>  </div>
+            </div>
+    </section>
+
+    <section class="Contacto" id="Contacto">
+        <h1 class="TituloContacto">Contacto</h1>
+        <div class="containerContacto">
+            <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Nombre: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="email">Email: <input id="email" name="email" type="email" required /></label>
+      </fieldset>
+      <fieldset>
+        <label for="age">Ingresa tu edad: <input id="age" type="number" name="age" min="18" max="120" /></label>
+        <label for="referrer">Como se entero de nosotros?
+          <select id="referrer" name="referrer">
+            <option value="">(selecciona alguno)</option>
+            <option value="1">Noticiero</option>
+            <option value="2">Youtube</option>
+            <option value="3">Amigo/familiar</option>
+            <option value="4">Otro</option>
+          </select>
+          <label for="profile-picture">Foto para ayuda: <input id="profile-picture" type="file" name="file" /></label>
+        </label>
+        <label for="bio">Escribe tu mensaje:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="A mi me encanta porsche..."></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+        <div class="containerDerechosEmail">
+            <h5>Escribenos por email:</h5>
+            <a class="Correo" href="mailto:bryanalejandrorodriguezg21@cetis030.edu.mx" target="_blank">bryanalejandrorodriguezg21@cetis030.edu.mx</a>
+            <div class="containerDerechos">
+                <p>© 2023 Porsche México.</p>
+                <p>Esta pagina <b>NO ES OFICIAL</b> de Porsche, NO tiene uso para comercio o para conseguir algun beneficio monetario
+                    o de esa indole.
+                El unico uso es para un proyecto que realizo en mis estudios basicos, como practica.
+                </p>
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+</html>

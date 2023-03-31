@@ -1,0 +1,300 @@
+*{
+    /*background-color: #24252af1;*/
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #24252a;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+    width: 80%;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+.linksHeader{
+    display: flex;
+}
+
+.linksHeader li{
+    list-style: none;
+}
+
+.linksHeader a,
+.modelos{
+    font-family: "Cascadia Code", sans-serif;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+.linksHeader li {
+    padding: 0px 20px;
+  }
+
+.linksHeader li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+.linksHeader li a:hover{
+    color: #eabe37;
+}
+
+.modelos {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: #eabe37;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease 0s;
+}
+  
+.modelos:hover {
+    background-color: #ffbf00;
+}
+
+.imagenDeEntrada{
+    width: 100%;
+    height: 100vh;
+}
+
+
+/*Sobre nosotros*/
+.SobreNosotros{
+    background-color: #eabe37;
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.containerSobreNosotros{
+    display: flex;
+    align-items: center;
+}
+
+.TituloSobreNosotros{
+  font-family: Cascadia Code, sans-serif; 
+  font-size: 40px; 
+  padding-top: 8%;
+  padding-left: 3%;
+}
+
+.NosotrosLogo{
+    width: 350px;
+    padding-left: 30%;
+    padding-top: 40%;
+    border-radius: 20px;
+}
+
+.textoSobreNosotros{
+    width: 60%;
+    font-size: 30px;
+    margin-left: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*Sobre nosotros*/
+
+/*servicios*/
+.Servicios{
+    background-color: #008479;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.containerServicios{
+    display: flex;
+    align-items: center;
+}
+
+.TituloServicios{
+    font-family: Cascadia Code, sans-serif; 
+    font-size: 40px; 
+    padding-top: 8%;
+    padding-left: 3%;
+}
+
+.ServiciosLogo{
+    padding-left: 15%;
+    padding-top: 15%;
+    border-radius: 20px;
+}
+
+.textoServicios{
+    width: 60%;
+    font-size: 150%;
+    margin-left: 8%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.MasInfoService{
+    font-family: "Cascadia Code", sans-serif; 
+    color: white;
+    text-decoration: none;
+    padding: 9px 25px;
+    background-color: #eabe37;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+  
+.MasInfoService:hover {
+    background-color: #ffbf00;
+}
+/*servicios*/
+
+/*Modelos*/
+.Modelos{
+    background-color: #026674;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.containerModelos{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.containerModelos2{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.TituloModelos{
+    color: rgb(192, 172, 107);
+    font-family: Cascadia Code, sans-serif; 
+    font-size: 40px; 
+    padding-top: 7%;
+    padding-left: 3%;
+}
+/*Modelos*/
+
+/*Contacto*/
+.Contacto{
+    background-color: #2F4858;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 103vh;
+}
+
+.containerContacto{
+    display: block;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+
+.TituloContacto{
+    color: rgb(192, 172, 107);
+    font-family: Cascadia Code, sans-serif; 
+    font-size: 40px; 
+    padding-top: 7%;
+    padding-left: 3%;
+}
+
+h5{
+    font-family: Cascadia code ;
+    font-size: 25px;
+    margin-left: 5%;
+}
+
+.Correo{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 6%;
+}
+
+.containerDerechosEmail{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.containerDerechos{
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 10%;
+}
+/*Contacto*/
+
+
+
